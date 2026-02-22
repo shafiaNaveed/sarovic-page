@@ -10,22 +10,22 @@ function App() {
     <div className='flex flex-col w-[100%]'>
       <nav className='w-[100%] h-[100px]'>
         <div className='h-[5vw] bg-black'>
-          <img className='h-[6.5vw]' src={logo1} alt="" />
+          <img className='h-[6.4vw]' src={logo1} alt="" />
         </div>
         <div className='h-[3vw] bg-red-900'>
           <img className='h-[2.6vw] ml-[15vw]' src={logo2} alt="" />
         </div>
       </nav>
-      <section className='w-[100%] flex justify-around h-[50vw] md:mt-[10vw] gap-[1.5vw]'>
+      <section className='w-[100%] flex justify-around h-[50vw] md:mt-[10vw] gap-[2vw]'>
         <div className='w-[50vw] h-[50vw]'>
-          <div className='grid grid-cols-2 gap-[1vw]'>
-            <img className='w-[24vw] border-[7px] border-black' src={img2} alt="" />
+          <div className='grid grid-cols-2 relative left-1 gap-[1vw]'>
+            <img className='w-[24vw] border-[6px] border-black' src={img2} alt="" />
             <div className='w-[24vw] font-[700] font-mono px-[1vw] leading-[3.2vw] py-[8vw] bg-red-900 text-white'>
-             <h1 className='text-[3.4vw]'>BIOKLIMATSKA</h1> 
+             <h1 className='text-[3.3vw]'>BIOKLIMATSKA</h1> 
              <h2 className='text-[3.5vw] ml-[3vw]'>PERGOLA</h2>
             </div>
-            <img className='w-[24vw] border-[7px] border-black' src={img3} alt="" />
-            <img className='w-[24vw] border-[7px] border-black' src={img1} alt="" />
+            <img className='w-[24vw] border-[6px] border-black' src={img3} alt="" />
+            <img className='w-[24vw] border-[6px] border-black' src={img1} alt="" />
           </div>
         </div>
         <div className='w-[50vw] h-[50vw] flex-col gap-2 font-mono text-[2vw] font-[500] tracking-[0%] leading-[2.2vw]'>
