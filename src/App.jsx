@@ -21,7 +21,7 @@ function App() {
           <div className='grid grid-cols-2 relative left-1 gap-[1vw]'>
             <img className='w-[24vw] border-[6px] border-black' src={img2} alt="" />
             <div className='w-[24vw] font-[700] font-mono px-[1vw] leading-[3.2vw] py-[8vw] bg-red-900 text-white'>
-             <h1 className='text-[3.3vw]'>BIOKLIMATSKA</h1> 
+             <h1 className='text-[3vw]'>BIOKLIMATSKA</h1> 
              <h2 className='text-[3.5vw] ml-[3vw]'>PERGOLA</h2>
             </div>
             <img className='w-[24vw] border-[6px] border-black' src={img3} alt="" />
@@ -37,7 +37,7 @@ function App() {
           </div>
       </section>
       <footer>
-        <div className='w-[100%] text-[1.6vw] font-semibold flex flex-col gap-[2vw] mt-[10vw]'>
+        <div className='w-[100%] text-[1.6vw] font-semibold flex flex-col gap-[2vw] mt-[20vw]'>
           <h1 className='font-[800]'>KLIZNA STAKLA - MINIMALISTIČKI SISTEM BEZ VIZUELNIH BARIJERA</h1>
           <h2>Primijenjen je minimalistički sistem kliznih stakala Feal FR18, sa:</h2>
           <ul className='ml-[1.7vw] list-disc'>
@@ -48,7 +48,7 @@ function App() {
           <p>Ovim rješenjem prostor ostaje vizuelno otvoren, uz potpunu zaštitu od vjetra i padavina.</p>
         </div>
       </footer>
-      <hr className='h-[4px] mt-[20vw] bg-red-800'/>
+      <hr className='h-[4px] mt-[45vw] bg-red-800'/>
       <h1 className='flex justify-center items-center mt-6 text-[1.5vw] font-[600]'>www.sarovic.me</h1>
     </div>
   )
